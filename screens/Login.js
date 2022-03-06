@@ -1,13 +1,7 @@
-import {
-  StyleSheet,
-  Text,
-  View,
-  StatusBar,
-  KeyboardAvoidingView,
-} from "react-native";
+import { StyleSheet, Text, View, KeyboardAvoidingView } from "react-native";
 import React, { useState } from "react";
 import { Button, Input, Image } from "react-native-elements";
-
+import { StatusBar } from "expo-status-bar";
 const Login = ({ navigation }) => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
